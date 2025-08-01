@@ -7,7 +7,7 @@ services:
     restart: unless-stopped
     mem_limit: 64m
     ports:
-      - "8080:80"  # Mapeamento temporário para testes
+      - "8083:80"  # Porta 8083 disponível baseada nos seus containers
     networks:
       - laravel-network
     environment:
